@@ -1,0 +1,3 @@
+/home/rat/Detox/build/CMakeFiles/detox.dir
+/home/rat/Detox/build/CMakeFiles/edit_cache.dir
+/home/rat/Detox/build/CMakeFiles/rebuild_cache.dir
