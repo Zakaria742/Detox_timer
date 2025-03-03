@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/detox.dir/src/main.c.o -o detox 
+/usr/bin/cc CMakeFiles/detox.dir/src/main.c.o -o detox  -lm 

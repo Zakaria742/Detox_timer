@@ -5,3 +5,5 @@ project( DETOX )
 set( CMAKE_C_STANDARD )
 
 add_executable( detox src/main.c )
+
+target_link_libraries( detox m )

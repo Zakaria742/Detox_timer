@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/rat/Detox/build",
+  "command": "/usr/bin/gcc -g -o CMakeFiles/detox.dir/src/main.c.o -c /home/rat/Detox/src/main.c",
+  "file": "/home/rat/Detox/src/main.c"
+}
+]
