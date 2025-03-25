@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.sqlbook": "sql",
+        "*.ndjson": "jsonl",
+        "*.dbclient-js": "javascript",
+        "*.asm": "assembly",
+        "*.java": "java",
+        "array": "c",
+        "ioctl.h": "c",
+        "ioctls.h": "c",
+        "ttydefaults.h": "c"
+    }
+}
