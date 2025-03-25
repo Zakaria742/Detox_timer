@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "DETOX",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "detox::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-detox-Debug-7e7efbe95e96464fe396.json",
+					"jsonFile" : "target-detox-Debug-6ec0345580b8c55ae1b9.json",
 					"name" : "detox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "runIt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-runIt-Debug-d43437a654d32d513b22.json",
+					"name" : "runIt",
 					"projectIndex" : 0
 				}
 			]

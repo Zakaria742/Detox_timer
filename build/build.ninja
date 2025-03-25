@@ -40,6 +40,12 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = /home/rat/Detox/build/
+
+#############################################
+# Utility command for runIt
+
+build runIt: phony CMakeFiles/runIt detox
+
 # =============================================================================
 # Object build statements for EXECUTABLE target detox
 
@@ -94,6 +100,13 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Custom command for CMakeFiles/runIt
+
+build CMakeFiles/runIt | ${cmake_ninja_workdir}CMakeFiles/runIt: CUSTOM_COMMAND detox . || detox
+  COMMAND = cd /home/rat/Detox/build && /home/rat/Detox/build/detox 5
 
 # =============================================================================
 # Target aliases.
